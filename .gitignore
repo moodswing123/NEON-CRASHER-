@@ -1,0 +1,13 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# WhatsApp authentication/session state and generated pairing data
+sessions/
+pairings.json
+
+# Dependencies and runtime files
+node_modules/
+npm-debug.log*
+.DS_Store
